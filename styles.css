@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+body{
+    margin:0px;
+}
+.half-width{
+    margin-left: 5%;
+    padding: 20px;
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+    padding-left: 2%;
+}
+
+
+img{
+    width: 550px;
+}
+h1{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(61, 18, 18, 0.712);
+}
+span{
+    font-size:50px;
+    color: rgb(255, 0, 136);
+}
+p{
+    color: dimgray;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.link-button{
+    font-size:15px ;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(32, 100, 100),rgb(255, 0, 212));
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 9px 16px -2px rgba(0,0,0,0.72);
+    
+}
+.link-button:hover{
+    font-size:18px ;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(45deg,rgb(255, 0, 212), rgb(32, 100, 100));
+    padding: 10px 40px;
+    border-radius: 5px;
+  
+}
+
+.top-section{
+    background-image: url("image/personal-website/header-bg.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: 100% ;
+    padding: 60px 30px 0px 30px;
+}
+.biography{
+    background-image: url("image/personal-website/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size:100% ;
+    height: 580px;
+    padding: 40px 20px 0px 0px;
+}
+div.small-content img{
+    width: 400px;
+    padding: 0px;
+    margin:0 px;
+    float: left;
+    height: 300px;
+    padding-left: 20px;
+    margin-bottom: 60px;
+    box-shadow: -8px 10px 20px -8px rgba(0,0,0,0.82);
+}
+div.content{
+    padding-left: 35px;
+    margin-bottom: 40px ;
+    margin-left: 30px;
+}
+
+div.header{
+    font-family: 'Noto Sans JP', sans-serif; 
+    padding-bottom: 60px;
+    padding-top: 60px;
+    
+}
+h1#font{
+    text-align: center;
+}
+section.my-latest-work{
+    height: 700px;
+    background-image: url("image/personal-website/latest-work-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+div.para-font p{
+    font-size: 18px;
+    width:400px;
+    padding-left: 375px;
+    margin-left: 100px;
+}
+div.center{
+    text-align: center;
+
+}
+
+h4{
+    margin: 0px;
+    font-size: 20px;
+}
+h5{
+    margin: 10px 0px;
+    color: rgb(158, 158, 158);
+}
+#h2-color{
+    color: rgba(0, 0, 168, 0.719);
+    padding-top: 155px;
+}
+div.information{
+    padding: 30px;
+    margin: 10px 370px;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(216, 15, 15),rgb(37, 0, 138));
+    border-radius: 20px;
+   
+ ;
+    
+}
+div.information p  {
+    text-decoration: none;
+    padding-bottom: 0px;
+}
+
+div.information h5{
+    font-size: 16px;
+    color: rgb(170, 170, 170);
+    margin-top: 20px;
+}
+div.information p a  {
+    text-decoration: none;
+    font-size: 30px;
+    padding-bottom: 0px;
+    font-family: monospace;
+    color: white;
+    
+
+}
+div.information p a:hover  {
+    text-decoration: none;
+    font-size: 32px;
+    padding-bottom: 0px;
+    font-family: monospace;
+    color: white;
+    
+
+}
+
+section.footer{
+    background-image: url("image/personal-website/footer-bg.png");
+    background-size: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+footer{
+    font-size: 18px;
+    color: rgb(182, 182, 182);
+    text-align: center;
+    padding: 20px 0px;
+   
+}
+div.edit2 img{
+    padding-left: 10px;
+    
+    
+    box-shadow: -10px 9px 15px -2px rgba(0,0,0,0.44);
+}
+
+div.edit1 img{
+    box-shadow: -10px 9px 15px -2px rgba(0,0,0,0.44);
+    padding-left: 0px;
+}
+
+div.edit3 img{
+    box-shadow: -10px 9px 15px -2px rgba(0,0,0,0.44);
+    padding-left: 0px;
+}
+
+div.edit1 img:hover{
+    box-shadow: 9px -7px 15px -2px rgba(0,0,0,0.64);
+    width: 450px;
+}
+div.edit2 img:hover{
+    box-shadow: 9px -7px 15px -2px rgba(0,0,0,0.64);
+    width: 450px;
+}
+div.edit3 img:hover{
+    box-shadow: 9px -7px 15px -2px rgba(0,0,0,0.64);
+    width: 450px;
+}
